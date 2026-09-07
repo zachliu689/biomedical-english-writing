@@ -1,0 +1,4 @@
+interface:
+  display_name: "Biomedical English Writing"
+  short_description: "精炼撰写生物医学论文正文、图注与投稿声明"
+  default_prompt: "Use $biomedical-english-writing to draft or concisely polish a biomedical manuscript section while preserving the author's intended scientific emphasis."
