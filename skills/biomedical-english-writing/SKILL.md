@@ -1,6 +1,6 @@
 ---
 name: biomedical-english-writing
-description: "Draft or polish biomedical manuscript abstracts, introductions, results, discussions, methods, figure legends, and standard end-matter declarations with concise scientific logic, author-controlled rhetorical strength, journal conventions, terminology checks, and Chinese translation. Use for section-level biomedical English writing or editing; do not route ordinary translation, reviewer-response letters, or non-biomedical prose here. Also enforces explicit per-panel sample sizes and manuscript-wide abbreviation-scope rules: the abstract is an independent unit, every figure legend and table is self-contained, and a legend's abbreviation list covers the artwork as well as the legend text."
+description: "Draft or polish biomedical manuscript abstracts, introductions, results, discussions, methods, figure legends, and standard end-matter declarations with concise scientific logic, author-controlled rhetorical strength, journal conventions, terminology checks, and Chinese translation. Use for section-level biomedical English writing or editing; do not route ordinary translation, reviewer-response letters, or non-biomedical prose here. Enforces manuscript-wide abbreviation scope (abstract, main text, each legend and table as independent units), explicit per-panel sample sizes, and a pre-submission verification pass."
 ---
 
 # Biomedical English Writing
@@ -9,28 +9,7 @@ Edit for scientific accuracy, logical force, conventional biomedical English, co
 
 ## Author Style Profile
 
-This author prefers high-compression, result-led prose that preserves the full evidentiary logic of each figure. Apply the **one-sentence sufficiency rule** only after reconstructing the figure-level argument: when one sentence can state a finding and its interpretation clearly, do not expand it into separate setup, restatement, and summary sentences.
-
-- Apply compression only after confirming the scientific meaning, evidence relationship, information focus, conventional wording, grammar, and collocation. Never shorten first and then force the science into an unfamiliar phrase.
-- Examine substantive wording at the phrase and word level. A grammatically possible expression is not automatically useful in context; retain it only when it is conventional or immediately transparent, semantically exact, and necessary for the sentence.
-- Do not coin compact labels such as `cross-phenotype replication`, `case coverage`, or a new type of `state` or `signal` merely to reduce word count. Describe the observed comparison directly unless the term is established and improves comprehension.
-- Every sentence must add a result, an indispensable interpretive step, or context needed to understand the comparison. Delete sentences that merely paraphrase the preceding result.
-- Determine what the reader should remember from the sentence, then place that result, biological entity, or decisive comparison in the grammatical subject or opening clause when natural. Do not create awkward passive constructions merely to prevent a method from appearing first.
-- Compress wording, not reasoning. Preserve a short purpose or transition sentence whenever it explains why the next panel or analysis follows from the preceding result.
-- Treat panels as evidence nodes and the links between them as part of the scientific result. A paragraph must show both what each panel found and how that finding motivated the next analytical step.
-- Use the **minimum sufficient bridge**: state only the broad reason for the next panel, then move directly to the result. Do not expand the bridge into a detailed list of alternatives that the following result will repeat.
-- Build bridges from the positive scientific implication or new capability created by the preceding result. In Results, do not motivate a new analysis by announcing that an earlier cohort, dataset, method, or study `lacked`, `failed`, or was `insufficient`; state what the new analysis enables instead.
-- Delete logically entailed information. If `RET was the only inverse component` is stated, do not also state that all remaining components were positive unless the exact count is independently important.
-- Do not narrate the author's private reasoning process. Replace staged formulations such as `This finding raised the question of whether X, Y, or both. We therefore...` with one direct link such as `To explain this pattern, proteins were classified based on...`.
-- Reveal the key result immediately after the minimum necessary setup. Do not delay it behind procedural narration or broad framing.
-- Prefer one concrete positive conclusion over an abstract negative contrast. Replace constructions such as `the signal was not confined to X but encompassed Y` with a direct statement of what the signal represents when that preserves the meaning.
-- Do not recite every value or panel detail in Results. Retain the statistics and methodological details needed to support the central claim; leave secondary detail to the figure, legend, table, or Methods.
-- Give each independent evidence module an explicit take-home message when it establishes a central innovation, comparative advantage, mechanism, or explanation. Do not let compression bury the paper's principal claim inside percentages or panel descriptions.
-- Use a final synthesis sentence when it adds a new biological explanation, states the innovation at a higher conceptual level, or advances the evidence chain. Remove `These findings...`, `Together...`, and similar endings only when they repeat the preceding sentence at the same semantic level.
-- Treat `thus` and `therefore` as logical operators, not compression devices or generic paragraph endings. Retain them when the preceding data directly support the stated conclusion, as in `Thus, the 19-protein score identified a substantial subset of AMI cases missed by CRP and IL-1β.` Use `These findings indicate/suggest`, `consistently`, `may explain`, or no connector when those relationships are more accurate.
-- Allow adjacent evidence modules to reach separate conclusions. If one module establishes that a marker identifies cases missed by conventional biomarkers and the next links the marker to long-term risk, summarize both rather than collapsing them into one generic conclusion.
-- When a later result may explain an earlier advantage, state that explanatory relationship explicitly with proportionate language such as `may explain`. For example: `This may explain why the 19-protein score showed greater long-term sensitivity than conventional inflammatory markers.` This causal synthesis is distinct from merely restating either result.
-- Use the strongest scientifically defensible title and take-home conclusion supported by the complete evidence chain. Preserve supported claims of specificity, superiority, persistence, novelty, mechanistic importance, or clinical value; do not flatten them merely because a more conservative description is possible.
+Use the shared rules in [references/editing-standard.md](references/editing-standard.md) and the section-specific rules in [references/section-guides.md](references/section-guides.md). For this author's additional scope, reporting, output, and naming conventions, read [references/author-profile.md](references/author-profile.md). Journal requirements override both the personal layer and general defaults.
 
 ## First-use Brief
 
@@ -83,7 +62,7 @@ Correct the manuscript text itself only when there is a clear design-to-claim mi
 
 ## Abbreviation Units and Scope
 
-Treat the manuscript as a set of units that are each read independently, and define every abbreviation at its first use within each unit.
+Treat the manuscript as a set of independently read units. Apply G13 in [references/editing-standard.md](references/editing-standard.md) to definitions and consistency within each unit.
 
 1. **Title and headings:** avoid abbreviations. If one is unavoidable, define it in the heading or in the first sentence that follows.
 2. **Abstract:** its own unit. Define at first use. A term abbreviated in the abstract must be expanded again at first use in the main text.
@@ -92,13 +71,7 @@ Treat the manuscript as a set of units that are each read independently, and def
 5. **Each table, with its footnotes:** its own unit.
 6. **Each supplementary figure legend:** its own unit.
 
-Additional conventions:
-
-- Abbreviate only terms that recur. If a term appears once or twice, spell it out.
-- Introduce the abbreviation at first use as `full term (ABBR)`, then use `ABBR` throughout. Do not alternate between the two forms.
-- Gene and protein symbols are nomenclature rather than abbreviations. Follow the journal's rule on whether the full name accompanies the first mention, and keep human and mouse capitalization and italics consistent with HGNC and MGI.
-- Do not introduce an abbreviation that is never used again.
-- Journals differ on whether the abstract must repeat main-text definitions. Verify the target journal's author guidelines; when the guidelines are silent, apply the unit rule above.
+Journal requirements override this default unit model. Gene and protein symbols are nomenclature rather than abbreviations; apply G12 for their typography and naming.
 
 ## Research and Skill Coordination
 
@@ -112,6 +85,9 @@ When available and genuinely useful:
 
 Before using another skill, read its `SKILL.md` and follow its routing rules. Do not invoke extra workflows merely because they are available.
 
+- Style audits, corpus sampling, voice selection, and collocation checks: read [references/corpus-and-style-audit.md](references/corpus-and-style-audit.md) when the relevant mode is requested or triggered.
+- Per-author working conventions for reporting, output, and naming: read [references/author-profile.md](references/author-profile.md) when working for this author.
+
 ## Editing Standard
 
 For every passage, apply [references/editing-standard.md](references/editing-standard.md). Prioritize:
@@ -122,51 +98,18 @@ For every passage, apply [references/editing-standard.md](references/editing-sta
 4. conventional terminology, natural collocation, nomenclature, abbreviations, and journal consistency;
 5. concise expression of the same scientific content.
 
-Apply this sequence before accepting a revision: **scientific meaning → evidentiary relationship → information focus → conventional wording → grammar and collocation → compression**. If compression weakens clarity, hides the direction of change, introduces an unfamiliar label, or reduces the force of a supported conclusion, reject the compression.
-
-Run a deliberate compression pass only after substantive and lexical editing. Remove repeated methods, duplicated conclusions, empty transitions, and analysis-led openings when the biological result can serve naturally as the subject. Prefer `RUNX1 expression was higher...` to `Analysis of the integrated dataset showed an upward distribution of RUNX1 expression...`. A method may appear first when it is the clearest conventional construction; result-first emphasis must not produce wording such as `was further discovered among ... by using ...`.
-
-Before that compression pass, perform a **logic-preservation pass** at the figure level. Confirm that the opening states the problem addressed by the figure, that every panel has a defined argumentative role, and that each change in analytical direction is introduced by a concise bridge explaining why it is needed. A bridge such as `To determine whether this signature was specific to gout...` is indispensable when the preceding panel cannot by itself explain why the next comparison was performed.
-
-Apply a funnel to each panel transition: begin with a short, broad purpose and let the result supply the narrower answer. Do not preload the bridge with the same categories or conclusion later reported. Prefer `To determine whether the signature was specific to gout...` over `To determine whether the signature was specific to clinical gout rather than a general feature of hyperuricemia or AMI susceptibility...` when the comparison groups already make the alternatives clear.
-
-During the compression pass, apply the one-sentence sufficiency rule from the Author Style Profile. For each sentence, ask whether it contributes information absent from the adjacent sentences. Merge or delete aim–result–summary chains only when the same point can be expressed once without losing the evidence, comparison, statistic, intended inference, or the reason that the next analysis follows. After editing, remove the panel labels mentally and ask whether a reader could still explain why the analyses occurred in that order; if not, restore the missing logical bridge.
-
-Prefer concrete statements over inflated academic phrasing. State known directions directly (`remained elevated`, `decreased`, `returned toward baseline`) rather than replacing them with `abnormal`, `altered`, or another vague label. Avoid formulaic AI language, but do not replace one repeated word with a less accurate synonym merely for variety. Technical terms, statistical meanings, natural biomedical collocations, and established field usage take precedence over stylistic variation. Use `clinical`, `cohort-level`, `state`, `signal`, and similar qualifiers only when they make a necessary distinction in that sentence.
+Apply this sequence before accepting a revision: **scientific meaning → evidentiary relationship → information focus → conventional wording → grammar and collocation → compression**. Use G5-G9 and the relevant section rules for figure logic, transitions, and compression; use G10-G17 for wording, collocations, terminology, symbol typography, abbreviation scope, voice, clause structure, and group naming. Reject any compression that weakens clarity, hides direction, invents a label, or reduces a supported conclusion's force.
 
 ## Pre-submission Verification
 
-Run this list before delivering any draft or revision.
+Run the applicable checks in [references/editing-standard.md](references/editing-standard.md) and [references/section-guides.md](references/section-guides.md) before delivering any draft or revision. This checklist routes to the detailed rules instead of restating them.
 
-**Content and logic**
-
-1. **No invented compressed labels.** Every label must map back to a concrete group, cell type, state, or comparison present in a figure or in the text. If it cannot, delete it and describe the comparison directly.
-2. **Every comparison names its referent.** Each higher, lower, greater, reduced or similar carries the thing compared against.
-3. **Connectors are logical operators.** Use `thus`, `therefore` and `hence` only where the preceding result directly supports the following clause; otherwise use `These findings indicate`, `suggest`, or `may explain`. Never place the same connector in two adjacent sentences.
-4. **The result is the sentence's focus.** Not the method, the purpose, or the procedure.
-5. **No defensive sentences in Results.** Statements such as `did not independently establish`, `statistical comparisons were unavailable`, or `to reduce the limitation` belong in editorial notes or Discussion.
-6. **Conclusion strength matches the evidence.** Where specificity, persistence, superiority, or mechanistic importance are supported, state them; do not default to hedging.
-7. **Directional results are stated directionally.** Use increased, elevated, decreased, returned toward baseline, not abnormal or altered.
-8. **Delete what is logically already contained.** Do not restate a variable list the legend already carries, do not repeat an adjacent sentence's fact, and do not state a count that another clause already entails.
-9. **No vague quantifier where an exact value exists.** Replace `almost`, `nearly`, `largely`, `approximately` with the count whenever the count is known.
-
-**Language**
-
-10. **Register is the literature's, not the meeting's.** Avoid colloquial research-speak such as `outnumber`, `readouts`, `multidimensional data`, `workhorse`, `vanilla`. For quantitative comparison prefer `density was higher than that of`, or `exceeded that of`. Generic measures are `variables`, `measurements`, or the named quantity.
-11. **Opening devices are rotated.** A paragraph must not open consecutive sentences with the same device. `To + verb` purpose openers remain legitimate but must not repeat. To vary them, replace only the purpose clause with an equivalent phrase and leave the rest of the sentence intact: `For` + noun phrase, `In order to`, `So as to`, `Aiming to`, `With the aim of` + gerund, `As a means of` + gerund, or move the purpose clause after the main clause. Do not reconstruct the sentence merely to avoid an infinitive, and do not repeat `We next ...` or a participial opener either.
-12. **Rejudge the sentence framework before rewording.** Check that the two sides of a contrast are parallel, that listed items belong to the same category, and that no stated count is already entailed. If the framework fails, rebuild the sentence.
-13. **No repeated designation inside one sentence.** Do not name the same object twice (use a pronoun or a shorter reference), do not stack near-synonyms (`dynamics` with `trajectories`), and do not state the same time qualifier twice.
-14. **Headings are sentences.** A Results subsection heading should read as subject plus predicate, not as a verbless noun phrase.
-15. **Figure title differs from the Results heading** covering the same figure.
-16. **Placeholders are never guessed.** Every placeholder is a value the author must supply; flag it rather than estimating.
-
-**Division of labour**
-
-The legend carries panel content, per-panel *n* and unit of replication, scale bars, stains and channels, symbol keys, the data-presentation sentence, and the abbreviation list. The text carries method names, statistical tests and multiple-comparison procedures, and the rationale of the design. Neither absorbs the other's duty.
-
-**Paired citation of image and quantification**
-
-When reporting a histology, staining, or imaging endpoint, cite the representative image panel together with its quantification panel. Citing only the quantification panel leaves the image unverifiable; citing only the image gives no statistic. Wherever the legend presents a quantified endpoint with a P value, the text must carry that endpoint's value.
+1. **Evidence and logic:** apply G1-G8 and the relevant section rules; ensure every comparison names its referent and every inference has an identifiable evidentiary basis.
+2. **Language and structure:** apply G9-G17, including sentence-pattern variety, collocation verification, terminology consistency, symbol typography, clause structure, and group naming.
+3. **Values and placeholders:** apply G4 and G4a; verify every number and keep every unresolved value visibly marked and listed as outstanding.
+4. **Abbreviation scope:** apply G13 and the unit model above; check the abstract, main text, each legend, each table, and supplementary legends independently.
+5. **Section-specific delivery:** run the relevant A/I/R/D/M/F rules, including figure-legend sample sizes, symbol keys, statistics placement, and ending order.
+6. **Figures and quantified images:** cite representative images together with their quantification panels when both support the reported endpoint, and confirm that prose, artwork, and legend agree.
 
 ## Default Output
 

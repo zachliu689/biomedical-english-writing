@@ -57,6 +57,8 @@ skills/
     ├── agents/
     │   └── openai.yaml
     └── references/
+        ├── author-profile.md
+        ├── corpus-and-style-audit.md
         ├── editing-standard.md
         ├── end-matter-guide.md
         ├── evidence-and-research.md
