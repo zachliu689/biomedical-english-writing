@@ -1,6 +1,6 @@
 ---
 name: biomedical-english-writing
-description: Draft or polish biomedical manuscript abstracts, introductions, results, discussions, methods, figure legends, and standard end-matter declarations with concise scientific logic, author-controlled rhetorical strength, journal conventions, terminology checks, and Chinese translation. Use for section-level biomedical English writing or editing; do not route ordinary translation, reviewer-response letters, or non-biomedical prose here.
+description: "Draft or polish biomedical manuscript abstracts, introductions, results, discussions, methods, figure legends, and standard end-matter declarations with concise scientific logic, author-controlled rhetorical strength, journal conventions, terminology checks, and Chinese translation. Use for section-level biomedical English writing or editing; do not route ordinary translation, reviewer-response letters, or non-biomedical prose here. Also enforces explicit per-panel sample sizes and manuscript-wide abbreviation-scope rules: the abstract is an independent unit, every figure legend and table is self-contained, and a legend's abbreviation list covers the artwork as well as the legend text."
 ---
 
 # Biomedical English Writing
@@ -81,6 +81,25 @@ Do not insert defensive statements into the revised manuscript merely because a 
 
 Correct the manuscript text itself only when there is a clear design-to-claim mismatch, such as cross-sectional association presented as causation, colocalization presented as functional mediation, a nonsignificant comparison described as statistically significant, or an in vitro observation presented as clinical efficacy. For debatable rather than clearly invalid claims, preserve the requested strength and do not volunteer a flatter alternative unless the user asks for claim calibration or the ambiguity materially affects scientific accuracy.
 
+## Abbreviation Units and Scope
+
+Treat the manuscript as a set of units that are each read independently, and define every abbreviation at its first use within each unit.
+
+1. **Title and headings:** avoid abbreviations. If one is unavoidable, define it in the heading or in the first sentence that follows.
+2. **Abstract:** its own unit. Define at first use. A term abbreviated in the abstract must be expanded again at first use in the main text.
+3. **Main text:** Introduction, Results (including subsection headings), Discussion, and Methods form one contiguous unit. Define each abbreviation at its first occurrence in that flow and use it consistently thereafter; do not redefine it in a later section of the same unit.
+4. **Each figure legend:** its own unit, and its terminal abbreviation list is a glossary for the whole figure, artwork included.
+5. **Each table, with its footnotes:** its own unit.
+6. **Each supplementary figure legend:** its own unit.
+
+Additional conventions:
+
+- Abbreviate only terms that recur. If a term appears once or twice, spell it out.
+- Introduce the abbreviation at first use as `full term (ABBR)`, then use `ABBR` throughout. Do not alternate between the two forms.
+- Gene and protein symbols are nomenclature rather than abbreviations. Follow the journal's rule on whether the full name accompanies the first mention, and keep human and mouse capitalization and italics consistent with HGNC and MGI.
+- Do not introduce an abbreviation that is never used again.
+- Journals differ on whether the abstract must repeat main-text definitions. Verify the target journal's author guidelines; when the guidelines are silent, apply the unit rule above.
+
 ## Research and Skill Coordination
 
 Read [references/evidence-and-research.md](references/evidence-and-research.md) whenever terminology, references, target-journal requirements, introduction/discussion writing, or claim verification is involved.
@@ -114,6 +133,40 @@ Apply a funnel to each panel transition: begin with a short, broad purpose and l
 During the compression pass, apply the one-sentence sufficiency rule from the Author Style Profile. For each sentence, ask whether it contributes information absent from the adjacent sentences. Merge or delete aim–result–summary chains only when the same point can be expressed once without losing the evidence, comparison, statistic, intended inference, or the reason that the next analysis follows. After editing, remove the panel labels mentally and ask whether a reader could still explain why the analyses occurred in that order; if not, restore the missing logical bridge.
 
 Prefer concrete statements over inflated academic phrasing. State known directions directly (`remained elevated`, `decreased`, `returned toward baseline`) rather than replacing them with `abnormal`, `altered`, or another vague label. Avoid formulaic AI language, but do not replace one repeated word with a less accurate synonym merely for variety. Technical terms, statistical meanings, natural biomedical collocations, and established field usage take precedence over stylistic variation. Use `clinical`, `cohort-level`, `state`, `signal`, and similar qualifiers only when they make a necessary distinction in that sentence.
+
+## Pre-submission Verification
+
+Run this list before delivering any draft or revision.
+
+**Content and logic**
+
+1. **No invented compressed labels.** Every label must map back to a concrete group, cell type, state, or comparison present in a figure or in the text. If it cannot, delete it and describe the comparison directly.
+2. **Every comparison names its referent.** Each higher, lower, greater, reduced or similar carries the thing compared against.
+3. **Connectors are logical operators.** Use `thus`, `therefore` and `hence` only where the preceding result directly supports the following clause; otherwise use `These findings indicate`, `suggest`, or `may explain`. Never place the same connector in two adjacent sentences.
+4. **The result is the sentence's focus.** Not the method, the purpose, or the procedure.
+5. **No defensive sentences in Results.** Statements such as `did not independently establish`, `statistical comparisons were unavailable`, or `to reduce the limitation` belong in editorial notes or Discussion.
+6. **Conclusion strength matches the evidence.** Where specificity, persistence, superiority, or mechanistic importance are supported, state them; do not default to hedging.
+7. **Directional results are stated directionally.** Use increased, elevated, decreased, returned toward baseline, not abnormal or altered.
+8. **Delete what is logically already contained.** Do not restate a variable list the legend already carries, do not repeat an adjacent sentence's fact, and do not state a count that another clause already entails.
+9. **No vague quantifier where an exact value exists.** Replace `almost`, `nearly`, `largely`, `approximately` with the count whenever the count is known.
+
+**Language**
+
+10. **Register is the literature's, not the meeting's.** Avoid colloquial research-speak such as `outnumber`, `readouts`, `multidimensional data`, `workhorse`, `vanilla`. For quantitative comparison prefer `density was higher than that of`, or `exceeded that of`. Generic measures are `variables`, `measurements`, or the named quantity.
+11. **Opening devices are rotated.** A paragraph must not open consecutive sentences with the same device. `To + verb` purpose openers remain legitimate but must not repeat. To vary them, replace only the purpose clause with an equivalent phrase and leave the rest of the sentence intact: `For` + noun phrase, `In order to`, `So as to`, `Aiming to`, `With the aim of` + gerund, `As a means of` + gerund, or move the purpose clause after the main clause. Do not reconstruct the sentence merely to avoid an infinitive, and do not repeat `We next ...` or a participial opener either.
+12. **Rejudge the sentence framework before rewording.** Check that the two sides of a contrast are parallel, that listed items belong to the same category, and that no stated count is already entailed. If the framework fails, rebuild the sentence.
+13. **No repeated designation inside one sentence.** Do not name the same object twice (use a pronoun or a shorter reference), do not stack near-synonyms (`dynamics` with `trajectories`), and do not state the same time qualifier twice.
+14. **Headings are sentences.** A Results subsection heading should read as subject plus predicate, not as a verbless noun phrase.
+15. **Figure title differs from the Results heading** covering the same figure.
+16. **Placeholders are never guessed.** Every placeholder is a value the author must supply; flag it rather than estimating.
+
+**Division of labour**
+
+The legend carries panel content, per-panel *n* and unit of replication, scale bars, stains and channels, symbol keys, the data-presentation sentence, and the abbreviation list. The text carries method names, statistical tests and multiple-comparison procedures, and the rationale of the design. Neither absorbs the other's duty.
+
+**Paired citation of image and quantification**
+
+When reporting a histology, staining, or imaging endpoint, cite the representative image panel together with its quantification panel. Citing only the quantification panel leaves the image unverifiable; citing only the image gives no statistic. Wherever the legend presents a quantified endpoint with a P value, the text must carry that endpoint's value.
 
 ## Default Output
 
